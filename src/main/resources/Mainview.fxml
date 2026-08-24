@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ui.MainviewController"
+      spacing="15" alignment="CENTER" style="-fx-padding: 20;">
+
+    <Label text="Accounts der PrivateBank" style="-fx-font-size: 20px;"/>
+
+    <ListView fx:id="accountListView" prefWidth="300" prefHeight="300"/>
+
+    <Button text="Neuen Account anlegen" onAction="#createAccount"/>
+
+</VBox>
